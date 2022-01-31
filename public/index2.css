@@ -1,0 +1,104 @@
+html {
+  background-color: #93e200;
+ 
+}
+body {
+  width: 850px; /* 横の長さ */
+  height: 950px; /* 縦の長さ */
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center; /* 中央揃え */
+  background-color: #fff; /* 背景色 */
+  margin-top: -80px;
+}
+input {
+  width: 200px; 
+}
+p[id=daimei] {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  font-size: 70pt; /* 文字の大きさ */
+  font-weight:bolder; /* 文字の太さ */
+}
+p[id=sub] {
+  font-size: 30px; 
+  font-weight: bold; 
+} 
+p[id=setumei] {
+  font-size: medium; 
+  font-weight: bold; 
+  color: grey; /* 文字の色 */
+  font-size: 20px;
+}
+input {
+  border-radius:30px 30px 30px 30px; /* ボタンの角を丸する */
+  outline: none;
+  border-color: #000;
+  border-width: 7px;
+  background-color: #fff;
+  color: #93e200;
+  font-weight: bolder;
+  font-size: 3em;
+  position: relative;
+  width: 300px;
+}
+input:active {
+  top: 4px;
+  box-shadow: 0 1px 0 #000;
+}
+input:hover {
+  background-color: #ff0081;
+  border: none;
+}
+
+
+
+
+
+/* 吹き出し */
+.balloon2 {
+  position: relative;
+  display: inline-block;
+  margin: 1.5em 0;
+  padding: 7px 10px;
+  min-width: 200px;
+  max-width: 100%;
+  height: 50px;
+  color: #555;
+  font-size: 16px;
+  background: #FFF;
+  border: solid 5px #000;
+  box-sizing: border-box;
+  top: 150px;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.balloon2:before {
+  content: "";
+  position: absolute;
+  bottom: -26px;
+  left: 50%;
+  margin-left: -15px;
+  border: 14px solid transparent;
+  border-top: 14px solid #FFF;
+  z-index: 2;
+}
+
+.balloon2:after {
+  content: "";
+  position: absolute;
+  bottom: -34px;
+  left: 50%;
+  margin-left: -17px;
+  border: 16px solid transparent;
+  border-top: 16px solid #000;
+  z-index: 1;
+}
+
+.balloon2 p {
+  margin: 0;
+  padding: 0;
+  color: #000;
+  font-size: 1.3em;
+  font-weight: bold;
+}

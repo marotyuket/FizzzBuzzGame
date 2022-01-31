@@ -1,0 +1,7 @@
+{
+  "name": "FizzBuzzGame",
+  "description": "FizzBuzzゲーム",
+  "logo": "",
+  "keywords": ["node"],
+  "image": "heroku/nodejs"
+}

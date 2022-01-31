@@ -1,0 +1,9 @@
+html {
+  background-image: /* 背景のドット模様 */
+  radial-gradient(#ff0081 30%, transparent 0%),
+  /* #e8d5af  */
+  /* #fff  */
+  radial-gradient(#fff 30%, transparent 0%);
+  background-size: 320px 320px;
+  background-position: 0 0, 160px 160px;
+}
